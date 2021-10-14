@@ -33,7 +33,7 @@ function addProductDetails(product) {
   };
 }
 
-function NewProductForm(saveNewProduct) {
+function NewProductForm({ saveNewProduct }) {
   const [submitted, setSubmitted] = useState(false);
   const formik = useFormik({
     initialValues: {
