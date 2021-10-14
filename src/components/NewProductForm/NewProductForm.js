@@ -46,23 +46,6 @@ const initialValues = {
 };
 
 function NewProductForm({ saveNewProduct }) {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     submitted: false,
-  //   };
-
-  //   this.setSubmitted = this.setSubmitted.bind(this);
-  // }
-
-  // setSubmitted() {
-  //   setTimeout(() => {
-  //     this.setState({
-  //       submitted: true,
-  //     });
-  //   }, 500);
-  // }
-
   const [submitted, setSubmitted] = useState(false);
 
   const formik = useFormik({
