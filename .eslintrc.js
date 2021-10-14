@@ -52,7 +52,7 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
-        "endOfLine": "auto"
+        endOfLine: "auto",
       },
     ],
     "react/jsx-filename-extension": "off",
